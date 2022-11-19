@@ -13,8 +13,7 @@
     <groupId>com.maksym</groupId>
     <artifactId>prykhodko</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>prykhodko</name>
-    <description>Project for university</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>17</java.version>
