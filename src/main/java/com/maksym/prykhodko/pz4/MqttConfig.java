@@ -18,10 +18,6 @@ import org.springframework.messaging.MessageHandler;
 @Configuration
 public class MqttConfig {
 
-    @Value("${username.mosquitto}")
-    private String user;
-    @Value("${password.mosquitto}")
-    private String password;
     @Value("${uri.mosquitto}")
     private String uri;
 
@@ -31,8 +27,6 @@ public class MqttConfig {
         MqttConnectOptions options = new MqttConnectOptions();
 
         options.setServerURIs(new String[] { uri });
-        options.setUserName(user);
-        options.setPassword(password.toCharArray());
         options.setCleanSession(true);
 
         factory.setConnectionOptions(options);
