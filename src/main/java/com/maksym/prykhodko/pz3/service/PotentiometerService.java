@@ -1,8 +1,8 @@
-package com.maksym.prykhodko.service;
+package com.maksym.prykhodko.pz3.service;
 
-import com.maksym.prykhodko.model.Potentiometer;
-import com.maksym.prykhodko.service.repository.PotentiometerRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.maksym.prykhodko.pz3.model.Potentiometer;
+import com.maksym.prykhodko.pz3.service.repository.PotentiometerRepository;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;

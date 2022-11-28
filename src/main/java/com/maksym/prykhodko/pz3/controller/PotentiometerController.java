@@ -1,7 +1,7 @@
-package com.maksym.prykhodko.controller;
+package com.maksym.prykhodko.pz3.controller;
 
-import com.maksym.prykhodko.model.Potentiometer;
-import com.maksym.prykhodko.service.PotentiometerService;
+import com.maksym.prykhodko.pz3.model.Potentiometer;
+import com.maksym.prykhodko.pz3.service.PotentiometerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
