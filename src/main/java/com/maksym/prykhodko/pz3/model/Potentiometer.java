@@ -1,4 +1,4 @@
-package com.maksym.prykhodko.model;
+package com.maksym.prykhodko.pz3.model;
 
 import javax.persistence.*;
 import java.util.Date;

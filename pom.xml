@@ -34,6 +34,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${my-sql.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.integration</groupId>
+            <artifactId>spring-integration-mqtt</artifactId>
+            <version>5.5.2</version>
+        </dependency>
     </dependencies>
 
     <build>
